@@ -16,7 +16,7 @@ public class w4Baitap {
             }
         Arrays.sort(list);
         for (int i=total-1; i>=0; i--) {
-            if (list[i]>=cnt) {
+            if (list[i]>cnt) {
                 cnt+=1;
             }
             else {break;}
